@@ -43,7 +43,7 @@ header {
 
 .logo img {
   /* 10x bigger than before */
-  max-height: 600px;
+  max-height: 200px;
   width: auto;
   height: auto;
   display: block;
@@ -51,7 +51,7 @@ header {
 
 .tagline img {
   /* 4x bigger than before */
-  max-height: 160px;
+  max-height: 200px;
   width: auto;
   height: auto;
   margin-top: 10px;
@@ -84,7 +84,7 @@ main {
 }
 
 .carousel-btn {
-  background: #b11002;
+  background: #0a48b6;
   color: #fff;
   border: none;
   font-size: 2em;
