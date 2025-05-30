@@ -103,8 +103,8 @@ main {
   border-radius: 12px;
   padding: 40px 20px;
   /* Fixed size to fit 14 lines of text comfortably */
-  min-height: 400px;   /* Approx 14 lines at 1.2em each + spacing */
-  height: 400px;
+  min-height: 300px;   /* Approx 14 lines at 1.2em each + spacing */
+  height: 300px;
   max-width: 700px;
   margin: 0 auto;
   border: none;
