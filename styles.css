@@ -66,6 +66,29 @@ main {
   z-index: 1;
 }
 
+.contact-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.contact-btn {
+  display: inline-block;
+  background: #0a48b6;
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 18px 48px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.contact-btn:hover {
+  background: #b11002;
+  color: #fffafa;
+}
+
 .carousel-section {
   text-align: center;
   margin-bottom: 40px;
@@ -80,8 +103,8 @@ main {
   border-radius: 12px;
   padding: 40px 20px;
   /* Fixed size to fit 14 lines of text comfortably */
-  min-height: 440px;   /* Approx 14 lines at 1.2em each + spacing */
-  height: 440px;
+  min-height: 400px;   /* Approx 14 lines at 1.2em each + spacing */
+  height: 400px;
   max-width: 700px;
   margin: 0 auto;
   border: none;
@@ -136,29 +159,6 @@ main {
   font-weight: bold;
   margin-top: 2px;
   display: block;
-}
-
-.contact-section {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.contact-btn {
-  display: inline-block;
-  background: #0a48b6;
-  color: #fff;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 1.3em;
-  padding: 18px 48px;
-  border-radius: 8px;
-  letter-spacing: 1px;
-  text-decoration: none;
-  transition: background 0.2s, color 0.2s;
-}
-.contact-btn:hover {
-  background: #b11002;
-  color: #fffafa;
 }
 
 footer {
