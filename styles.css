@@ -21,7 +21,7 @@ body, html {
     linear-gradient(to right, #c3d7fc 1px, transparent 1px),
     linear-gradient(to bottom, #c3d7fc 1px, transparent 1px);
   /* Smaller grid */
-  background-size: 20px 20px;
+  background-size: 10px 10px;
 }
 
 header {
