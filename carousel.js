@@ -13,7 +13,7 @@ const references = [
     source: "Annie Estlin, Science Research Manager, NPCC"
   },
   {
-    text: "“I had the privilege of working with Dan for several years at ACE. Throughout this time, he was a consummate professional. Of particular note were his excellent analytical skills and written outputs. Having been in a position to review analysis and written work from dozens of people and organisations, I always looked forward to reading his work and can honestly say his outputs were tremendous and near peerless. This is no flippant comment - someone that can research, digest and understand a topic, then write clearly, simply and compelling to answer both general and specific questions is rare. Dan is a master of this art. Furthermore, Dan understands the bigger picture and brings enthusiasm to driving new ideas forward, both internally and engaging with clients to drive business development. I do not hesitate to recommend him and would look forward to working with him again”",
+    text: "“Dan was a consummate professional. Of particular note were his excellent analytical skills and written outputs. Having been in a position to review analysis and written work from dozens of people and organisations, I always looked forward to reading his work and can honestly say his outputs were tremendous and near peerless. This is no flippant comment - someone that can research, digest and understand a topic, then write clearly, simply and compelling to answer both general and specific questions is rare. Dan is a master of this art. ”",
     source: "Graedon Crouch, MOD Futures Lab (ex ACE)"
   },
   {
