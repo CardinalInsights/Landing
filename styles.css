@@ -20,7 +20,7 @@ body, html {
   background-image:
     linear-gradient(to right, #c3d7fc 1px, transparent 1px),
     linear-gradient(to bottom, #c3d7fc 1px, transparent 1px);
-  /* Smaller grid */
+  /* Even smaller grid */
   background-size: 10px 10px;
 }
 
@@ -42,14 +42,20 @@ header {
 }
 
 .logo img {
-  max-height: 180px;
+  /* 10x bigger than before */
+  max-height: 600px;
   width: auto;
+  height: auto;
+  display: block;
 }
 
 .tagline img {
-  max-height: 180px;
+  /* 4x bigger than before */
+  max-height: 160px;
   width: auto;
+  height: auto;
   margin-top: 10px;
+  display: block;
 }
 
 main {
@@ -65,8 +71,6 @@ main {
   margin-bottom: 40px;
 }
 
-/* Removed .carousel-title */
-
 .carousel {
   display: flex;
   align-items: center;
@@ -74,7 +78,6 @@ main {
   position: relative;
   background: #ffffff;
   border-radius: 12px;
-  /* No shadow */
   padding: 40px 20px;
   min-height: 170px;
   border: none;
@@ -95,7 +98,6 @@ main {
   justify-content: center;
   opacity: 0.8;
   transition: background 0.2s, opacity 0.2s;
-  /* No shadow */
 }
 .carousel-btn:hover {
   background: #0a48b6;
@@ -113,7 +115,6 @@ main {
   padding: 0 10px;
   background: #ffffff;
   border-radius: 8px;
-  /* No shadow */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -149,7 +150,6 @@ main {
   letter-spacing: 1px;
   text-decoration: none;
   transition: background 0.2s, color 0.2s;
-  /* No shadow */
 }
 .contact-btn:hover {
   background: #b11002;
@@ -176,5 +176,11 @@ footer {
   }
   .carousel {
     padding: 30px 5px;
+  }
+  .logo img {
+    max-height: 220px;
+  }
+  .tagline img {
+    max-height: 64px;
   }
 }
