@@ -1,28 +1,28 @@
 // References: Add { text, source } objects.
 const references = [
   {
-    text: "“Cardinal Insights helped us unlock new market opportunities with their sharp analytics and strategic advice.”",
-    source: "Head of Strategy, TechCorp"
+    text: "“Dan undertook a difficult and sensitive research project, and delivered truly outstanding results. He completely exceeded our expectations and as a result we looked to increase our funding to access even more of his high-quality work.”",
+    source: "Russell Bagnall, Home Office"
   },
   {
-    text: "“Professional, responsive, and genuinely invested in our success. Highly recommended!”",
-    source: "COO, FinNova"
+    text: "“Dan’s research is meticulous and detail orientated, Dan has the unique ability to inform both operational tactics and strategic policy decision through his work. I use his research regularly to complement the ways in which we approach online investigations, and am convinced his insights have had a significant impact in fight against online child sexual exploitation. The work he has done is probably the best insight I get into companies and that includes the face to face meeting I have with them. This work is invaluable.”",
+    source: "Andy Etherington, NCA / NCMEC"
   },
   {
-    text: "“Their expertise in data-driven decision making transformed our business.”",
-    source: "CEO, MarketPilot"
+    text: "“Dan brought deep subject expertise, a strong network of relevant contacts, and a sustained awareness of emerging research and developments in this evolving area. He has a remarkable ability to distil complex topics into clear, actionable focus areas, and to relay this content in an accessible and understandable way for the intended audience. He was very easy to work with being consistently responsive, organised, and dependable. His proactive and pragmatic approach was instrumental in delivering both tangible and valuable work aligned with the project's goals”",
+    source: "Annie Estlin, Science Research Manager, NPCC"
   },
   {
-    text: "“We value their clear communication and fast turnaround on complex projects.”",
-    source: "Director, RetailX"
+    text: "“I had the privilege of working with Dan for several years at ACE. Throughout this time, he was a consummate professional. Of particular note were his excellent analytical skills and written outputs. Having been in a position to review analysis and written work from dozens of people and organisations, I always looked forward to reading his work and can honestly say his outputs were tremendous and near peerless. This is no flippant comment - someone that can research, digest and understand a topic, then write clearly, simply and compelling to answer both general and specific questions is rare. Dan is a master of this art. Furthermore, Dan understands the bigger picture and brings enthusiasm to driving new ideas forward, both internally and engaging with clients to drive business development. I do not hesitate to recommend him and would look forward to working with him again”",
+    source: "Graedon Crouch, MOD Futures Lab (ex ACE)"
   },
   {
-    text: "“The Cardinal Insights team provided actionable insights that improved our bottom line.”",
-    source: "CFO, BioGen"
+    text: "“I just wanted to say that this is yet another example of your work simply being better than the rest of the system. Admittedly, maybe we were fortunate with the timing, but these insights have been invaluable. [We now] have better HUMINT for CSA than law enforcement, by quite some way. The UK has been able to speak to foreign partners with real authority… and as a result, our ability to effectively work has massively increased. We would be in a significantly weaker position if it weren't for this work”",
+    source: "Russell Bagnall, Home Office"
   },
   {
-    text: "“A trustworthy partner for any business looking to make smarter decisions.”",
-    source: "Founder, StartSmart"
+    text: "“I'm amazed at the quality of the deliverable and how much you were able to advance the knowledge base within just 20 days.”",
+    source: "Sam Brooks, Head of F&I, ACE"
   }
 ];
 
