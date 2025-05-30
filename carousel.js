@@ -27,6 +27,7 @@ const references = [
 ];
 
 let currentIdx = 0;
+let carouselInterval = null;
 
 function updateCarousel() {
   const ref = references[currentIdx];
@@ -34,15 +35,33 @@ function updateCarousel() {
     `<span class="reference-text">${ref.text}</span><span class="reference-source">${ref.source}</span>`;
 }
 
+function showNextReference() {
+  currentIdx = (currentIdx + 1) % references.length;
+  updateCarousel();
+}
+
+function showPrevReference() {
+  currentIdx = (currentIdx - 1 + references.length) % references.length;
+  updateCarousel();
+}
+
+function resetInterval() {
+  if (carouselInterval) clearInterval(carouselInterval);
+  carouselInterval = setInterval(showNextReference, 5000);
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   updateCarousel();
 
   document.getElementById('prev-btn').addEventListener('click', function() {
-    currentIdx = (currentIdx - 1 + references.length) % references.length;
-    updateCarousel();
+    showPrevReference();
+    resetInterval();
   });
+
   document.getElementById('next-btn').addEventListener('click', function() {
-    currentIdx = (currentIdx + 1) % references.length;
-    updateCarousel();
+    showNextReference();
+    resetInterval();
   });
+
+  carouselInterval = setInterval(showNextReference, 5000);
 });
